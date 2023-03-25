@@ -11,7 +11,7 @@ AC_ARG_WITH(python,
 [AS_HELP_STRING([--with-python=PYTHON_PATH],
 		[specify the location of the python 2.x executable.])])
 
-PYTHON="python2.7"
+PYTHON="python"
 if test "x$with_python" != x; then
   PYTHON="$with_python"
 fi
